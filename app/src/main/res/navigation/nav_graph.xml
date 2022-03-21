@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment4">
+    <fragment
+        android:id="@+id/homeFragment4"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise1Fragment"
+            app:destination="@id/exercise1Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise2Fragment"
+            app:destination="@id/exercise2Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise3Fragment"
+            app:destination="@id/exercise3Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise4Fragment"
+            app:destination="@id/exercise4Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise5Fragment"
+            app:destination="@id/exercise5Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise6Fragment"
+            app:destination="@id/exercise6Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise7Fragment"
+            app:destination="@id/exercise7Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise8Fragment"
+            app:destination="@id/exercise8Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise9Fragment"
+            app:destination="@id/exercise9Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment4_to_exercise10Fragment"
+            app:destination="@id/exercise10Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/exercise10Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_10.Exercise10Fragment"
+        android:label="Exercise10Fragment" />
+    <fragment
+        android:id="@+id/exercise1Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_1.Exercise1Fragment"
+        android:label="Exercise1Fragment" />
+    <fragment
+        android:id="@+id/exercise2Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_2.Exercise2Fragment"
+        android:label="Exercise2Fragment" />
+    <fragment
+        android:id="@+id/exercise3Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_3.Exercise3Fragment"
+        android:label="Exercise3Fragment" />
+    <fragment
+        android:id="@+id/exercise4Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_4.Exercise4Fragment"
+        android:label="Exercise4Fragment" />
+    <fragment
+        android:id="@+id/exercise5Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_5.Exercise5Fragment"
+        android:label="Exercise5Fragment" />
+    <fragment
+        android:id="@+id/exercise6Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_6.Exercise6Fragment"
+        android:label="Exercise6Fragment" />
+    <fragment
+        android:id="@+id/exercise7Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_7.Exercise7Fragment"
+        android:label="Exercise7Fragment" />
+    <fragment
+        android:id="@+id/exercise8Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_8.Exercise8Fragment"
+        android:label="Exercise8Fragment" />
+    <fragment
+        android:id="@+id/exercise9Fragment"
+        android:name="emmanuelagr.example.application.fragmentswithjc.fragments.exercises.exercise_9.Exercise9Fragment"
+        android:label="Exercise9Fragment" />
+</navigation>
