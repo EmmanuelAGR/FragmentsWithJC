@@ -89,7 +89,11 @@ fun Exercise_1(
 
                         result =
                             if (receivesIn5Sg != 0.0)
-                                ((if (capacity != "") capacity.toDouble() else 0.0) / (receivesIn5Sg / 5.0))
+                                if (capacity != "")
+                                    if (capacity.toDouble() > receives.toDouble() * 5.0)
+                                        capacity.toDouble() / (receivesIn5Sg / 5.0)
+                                    else capacity.toDouble() / receives.toDouble()
+                                else 0.0
                             else 0.0
                     },
                     result = "Tiempo en llenarse = Aprox. ${
